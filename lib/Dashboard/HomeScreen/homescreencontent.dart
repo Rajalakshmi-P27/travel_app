@@ -59,12 +59,33 @@ class _HomeScreenContentState extends State<HomeScreenContent> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(kToolbarHeight),
         child: Padding(
-          padding: const EdgeInsets.only(left: 30, right: 20),
+          padding: EdgeInsets.only(
+            left: homescreenWidth * 0.04,
+            right: homescreenWidth * 0.07,
+          ),
           child: AppBar(
-            leading: Image.asset(
-              "assets/images/list.png",
-              height: homescreenHeight * 0.10,
-              width: homescreenWidth * 0.10,
+            leading: PopupMenuButton(
+              icon: Icon(Icons.menu, size: 32), // Menu icon
+
+              itemBuilder: (context) => [
+                PopupMenuItem(
+                    value: 1,
+                    child: ListTile(
+                        leading: Icon(Icons.home), title: Text("Home"))),
+                PopupMenuItem(
+                    value: 2,
+                    child: ListTile(
+                        leading: Icon(Icons.person), title: Text("Profile"))),
+                PopupMenuItem(
+                    value: 3,
+                    child: ListTile(
+                        leading: Icon(Icons.settings),
+                        title: Text("Settings"))),
+                PopupMenuItem(
+                    value: 4,
+                    child: ListTile(
+                        leading: Icon(Icons.logout), title: Text("Logout"))),
+              ],
             ),
             title: Column(
               mainAxisAlignment: MainAxisAlignment.center,
