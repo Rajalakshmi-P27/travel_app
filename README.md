@@ -1,16 +1,5 @@
 # travel_app
 
-A new Flutter project.
+![Simulator Screenshot - iPhone 16 - 2025-03-21 at 12 43 29](https://github.com/user-attachments/assets/41582354-6ad9-4dd0-9aba-f11a973fa63e)
+![Simulator Screenshot - iPhone 16 - 2025-03-21 at 12 43 34](https://github.com/user-attachments/assets/25a01257-cc0f-4596-a22b-901b480a62b8)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
